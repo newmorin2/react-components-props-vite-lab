@@ -8,12 +8,11 @@ console.log(blogData);
 
 function App() {
   return (
-    <>
-    <Header name= "Tech Blog"/>
-    <About image = '/demo.png' about = "A tech blog about technology" />
-    <ArticleList posts = {blogData.posts} />
-    </>
-
+    <div className="App">
+      <Header name={blogData.name} />
+      <About image={blogData.image} about={blogData.about} />
+      <ArticleList posts={blogData.posts} />
+    </div>
   );
 }
 
