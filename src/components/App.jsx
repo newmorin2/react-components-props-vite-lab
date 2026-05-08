@@ -6,8 +6,8 @@ console.log(blogData);
 function App() {
   return (
     <>
-    <Header name= "Newton's Life"/>
-    <About />
+    <Header name= "Tech Blog"/>
+    <About about = "A tech blog about technologoy" />
     <ArticleList />
     <Article />
     </>
